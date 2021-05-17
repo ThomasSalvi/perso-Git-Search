@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.message{
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: left;
+  background-color: vars.$white;
+}

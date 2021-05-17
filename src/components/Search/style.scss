@@ -1,0 +1,12 @@
+@use 'src/styles/vars';
+
+.search{
+  padding: 1rem;
+  background-color: vars.$white;
+  &-input{
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 5px;
+  }
+}

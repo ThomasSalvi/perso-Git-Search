@@ -1,0 +1,28 @@
+@use 'src/styles/vars';
+
+.navigation {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: left;
+  border: 1px solid vars.$border;
+  padding: 0;
+
+  &-item{
+    margin: 0;
+    padding: 1rem;
+    color:black;
+    &:hover{
+      color:black;
+    }
+  }
+}
+.selected{
+  background-color: rgb(53, 137, 148);
+  color: white;
+  border-left: 1px solid rgb(53, 137, 148);;
+  border-right: 1px solid rgb(53, 137, 148);;
+  &:hover{
+    color:white;
+  }
+}
